@@ -10,42 +10,43 @@
     <Button
         android:id="@+id/ButtonSetup"
         android:layout_width="fill_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Setup" />
+        android:text="Setup"
+        android:textSize="40sp"/>
 
     <Button
         android:id="@+id/ButtonConsole"
         android:layout_width="fill_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Console" />
 
     <Button
         android:id="@+id/ButtonLoopback"
         android:layout_width="fill_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Loopback" />
 
     <Button
         android:id="@+id/Button01010101"
         android:layout_width="fill_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Send 01010101" />
 
     <Button
         android:id="@+id/ButtonAbout"
         android:layout_width="fill_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="About" />
 
     <Button
         android:id="@+id/ButtonQuit"
         android:layout_width="fill_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Quit" />
 

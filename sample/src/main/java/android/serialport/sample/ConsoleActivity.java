@@ -16,13 +16,13 @@
 
 package android.serialport.sample;
 
-import java.io.IOException;
-
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
+
+import java.io.IOException;
 
 public class ConsoleActivity extends SerialPortActivity {
 
@@ -38,6 +38,7 @@ public class ConsoleActivity extends SerialPortActivity {
 
         EditText Emission = (EditText) findViewById(R.id.EditTextEmission);
         Emission.setOnEditorActionListener(new OnEditorActionListener() {
+            @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 int i;
                 CharSequence t = v.getText();
